@@ -1,7 +1,7 @@
 /* header styling */
 header {
   text-align: center;
-  background-color: black;
+  background-color: rgb(84, 80, 80);
   color: bisque;
   padding: 15px;
   margin-bottom: 30px;
@@ -9,7 +9,7 @@ header {
 
 /* body styling */
 body{
-  background-color: rgb(204, 196, 196);
+  background-color: rgb(196, 191, 191);
 }
 
 /* button layout */
@@ -24,7 +24,7 @@ body{
 /* button styling */
 button{
   border: solid grey;
-  background-color: #700f0f;
+  background-color: #f45a92;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -98,7 +98,7 @@ button:hover{
 /* setup for a mobile display */
 @media (max-width:480px){
   .gallery_page{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1fr);
   }
 }
 
@@ -111,7 +111,7 @@ button:hover{
   background-color:white;
   width: 200px;
   text-align: center;
-  transition: box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: box-shadow: 0 4px 10px rgba (0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -145,5 +145,3 @@ img {
   width: 200px;
   height: 185px;
 }
-
-
